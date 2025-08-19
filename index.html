@@ -2,4 +2,100 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluraflix</title>
+<link rel="styesheet" href="style.css">
+</head>
+
+<body> <!--incio, corpo do documento-->
+    <header>Aluraflix</header>
+    <section>
+        <div>
+            <h1>ATRÁVES DO ARANHAVERSO SUPERA O PRIMEIRO FILME?</h1> 
+            <p>#homem-aranha</p>    
+        </div>
+        
+        <div>
+            <iframe width="560" heigth="315" src="https://www.yotube.com/embed/gt_fAE1Eg2Q?si=EEv-tsY_b1B20wKE"
+            title="YouTube video player" frameborder="0"
+            allow="acclerometer; autoplay; clipboard-write; encrypted-media;gyroscope; picture-in-oicture"
+            web-share" referrerpolicy="strict-orgin-when-cross-orgin" allowfullscreen></iframe>
+        </div>
+    </section>
+</body><!--fim; corpo do documento-->
+</html>
+
+<!--comentarios em html são trechos de texto dentro do código que são ignorados pelo navegador e
+ não são exibidos na paginas de web
+ para criar um comentário em html, utilize a tag <!-- para iniciar o comentário e a tag para finalizar -->
+
+ <!--<html>(linguagem de marcação de hipertexto,
+    é a linguagem padrão usada para criar e estruturar paginas da web.)-->
+
+<!--<body>(define o corpo do documento, ou seja, tudo o que será exibido na pagina web, como texto, imagens, videos
+    e outros conteudos visiveis. é dentro da tag <body> que você coloca o conteudo principal do seu site.)-->
+
+        <!--<section> define uma seção genérica em um documento html,
+        geralmente usada para agrupar conteudo relacionado e com titulo-->
+        
+        <!--<div> em html é um elemento de bloco generico usado para agrupar outros elementos html e
+        definir seções ou divisões em uma pagina web.
+        id: define um identificado unico para a <div>,usada para estilização com CSS e interação com java script.
+        class: define uma ou mais classes para a <div>, usadas para aplicar estilo CSS ou selecionar elementos em JavaScript .-->
+
+        <!--<iframe>(um iframe(inline frame) é um elemento que permite incorporar outro documento HTML dentro de uma pagina web,
+        scr: Atributo que especifica a URL documento a ser exibido no iframe.
+        width: define alargura do iframe, geralmente em pixels 
+        height:define a altura do iframe, geralmente em pixels.
+        Responsividade: É importante garantir que os iframes sejam responsivos,
+        ou seja, que se adaptam a diferentes tamanhos de tela.)--> 
+
+<!--Atributos em Html (Eles são definidos dentro da tag de abertura do elemento, após o nome da tag,
+ e geralmente consistem em um nome e um valor.
+ 1. Estrutura: Um atributo sempre segue a estrutura nome="valor".
+ Por exemplo, <img src="imagem.jpg" alt="Descrição da imagem"> os atributos src e alt.
+ 2. Posição:
+ Os atributos sempre são colocados dentro da tag de abertura do elemento HTML.
+ 3. Tipos:
+ Existem atributos globais (que podem ser usados em qualquer elemento) e atributos específicos de elementos.
+4. Função:
+ Cada atributo tem um propósito específico. Alguns exemplos comuns incluem:
+  class: Permite estilizar elementos com CSS ou selecioná-los com JavaScript.
+ id: Define um identificador único para um elemento.
+ src: Especifica a URL de um recurso externo, como uma imagem.
+ href: Especifica o destino de um link.
+ alt: Fornece um texto alternativo para imagens.
+ title: Fornece informações adicionais que aparecem se o mouse sobre o elemento.
+ style: Aplica estilos CSS diretamente no elemento.
+ value: Especifica o valor de um elemento (ex: valor de um campo de entrada).
+ type: Especifica o tipo de um elemento (ex: input type="text" para campos de texto).
+ name: Atribui um nome ao elemento (ex: usado em campos de formulário).
+ -->
+ 
+ <!--Elemento em html pode ser identificado de várias maneiras, sendo as mais comuns através de id,
+ class e pelo próprio nome da tag. O id é único para cada elemento na página, enquanto a class pode ser usada
+ para agrupar elementos com características semelhantes. Além disso, o nome da tag (ex: <p>, <div>, <span>)
+ também pode ser usado para identificar elementos, especialmente quando não existem atributos específicos.
+ Formas de identificação:
+ id:
+ O atributo id fornece um identificador único para um elemento. É a forma mais confiável de identificar um elemento,
+ pois cada id deve aparecer apenas uma vez na página. Pode ser usado para aplicar estilos específicos ou manipular
+ o elemento através de JavaScript.
+ class:
+ O atributo class permite agrupar elementos com características em comum. Vários elementos podem ter a mesma class.
+ É comumente usado para aplicar estilos através de CSS ou para realizar ações em grupos de elementos.
+ Nome da tag:
+O nome da tag em si (ex: <h1>, <div>, <span>, <a>) também pode ser usado para identificar elementos,
+ principalmente quando não há atributos específicos ou quando se deseja selecionar
+ todos os elementos de um determinado tipo.
+ Outros atributos:
+ Além de id e class, outros atributos podem ser usados para identificar elementos, como name, src, href, etc. .
+ CSS Seletores:
+ É possível usar seletores CSS para encontrar elementos no DOM (Document Object Model), combinando diferentes critérios
+como id, class, nome da tag e outros atributos. Ferramentas de desenvolvedor em navegadores (como o Google Chrome)
+ permitem inspecionar o código HTML e CSS de uma página, facilitando a identificação dos elementos e seus atributos.-->
+ 
+ <!--Como identificar usando ferramentas de desenvolvedor:
+ Abra a página web no navegador.
+ Clique com o botão direito em um elemento e selecione "Inspecionar" ou "Inspecionar elemento".
+ A janela de ferramentas de desenvolvedor será aberta, mostrando o código HTML da página e a estrutura do DOM
